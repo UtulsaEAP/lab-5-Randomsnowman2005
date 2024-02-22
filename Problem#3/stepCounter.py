@@ -1,3 +1,4 @@
+# Mohamad Ali Fakhoury Thurs @2pm
 def feet_to_steps(user_feet):
    #write your code here
 

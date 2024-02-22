@@ -1,3 +1,4 @@
+# Mohamad Ali Fakhoury Thurs @2pm
 def int_to_reverse_binary(num1):
     binary_val = ''
 #write your while loop here
