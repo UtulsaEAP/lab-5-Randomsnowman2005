@@ -1,6 +1,6 @@
 # Mohamad Ali Fakhoury Thurs @2pm
 def feet_to_steps(user_feet):
-   #write your code here
+   print(1)
 
 if __name__ == '__main__':
     #take input feet steps here
