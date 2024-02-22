@@ -10,10 +10,14 @@ def int_to_reverse_binary(num1):
 
 def string_reverse(input_string): 
     reverse_input = ''
-    
-   #write your for loop here
-    
+    z = len(input_string)
+    word = str(input_string)
+    while z> 0:
+        num = word[z-1]
+        reverse_input = reverse_input + num
+        z = z -1
     return reverse_input
+
 
 if __name__ == '__main__':
     user_input = int(input())
