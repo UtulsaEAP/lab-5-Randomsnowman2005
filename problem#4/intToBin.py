@@ -5,10 +5,6 @@ def int_to_reverse_binary(num1):
     while num1 > 0:
         binary_val = binary_val + str(num1 % 2)
         num1 = num1 // 2
-       
-    else: print(stri)
-
-
     return(binary_val)
 
 
