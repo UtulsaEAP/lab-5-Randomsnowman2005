@@ -14,10 +14,7 @@ def test_passed():
 
     test1, test2, test3, test4 = student_result
     
-    if test1 == 10 and test2 == -1:
-        return True
-    else:
-        return False
+    assert test1 == 10 and test2 == -1
 
 # Test case 2
 def test_passed_2():
@@ -34,10 +31,7 @@ def test_passed_2():
     
     test1, test2, test3, test4 = student_result
     
-    if test1 == 0 and test2 == 9 and test3 == -5 and test4 == 13:
-        return True
-    else:
-        return False
+    assert test1 == 0 and test2 == 9 and test3 == -5 and test4 == 13
 
 # Test case 3
 def test_passed_3():
@@ -54,10 +48,7 @@ def test_passed_3():
     
     test1, test2, test3, test4 = student_result
     
-    if test1 == 11 and test2 == 11:
-        return True
-    else:
-        return False
+    assert test1 == 11 and test2 == 11
 
 # Test case 4
 def test_passed_4():
@@ -74,20 +65,17 @@ def test_passed_4():
     
     test1, test2, test3, test4 = student_result
     
-    if test1 == 8 and test2 == 3 and test3 == 4 and test4 == 2:
-        return True
-    else:
-        return False
+    assert test1 == 8 and test2 == 3 and test3 == 4 and test4 == 2
 
-# Example usage
-result = test_passed()
-print(result)
+# # Example usage
+# result = test_passed()
+# print(result)
 
-result_2 = test_passed_2()
-print(result_2)
+# result_2 = test_passed_2()
+# print(result_2)
 
-result_3 = test_passed_3()
-print(result_3)
+# result_3 = test_passed_3()
+# print(result_3)
 
-result_4 = test_passed_4()
-print(result_4)
+# result_4 = test_passed_4()
+# print(result_4)
