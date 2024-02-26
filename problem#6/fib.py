@@ -7,6 +7,18 @@ def fibonacci(n):
     elif n < 0:
         return(-1)
     else:
+        x = 0
+        y = 1
+        a = 0
+        z = 1
+        while z != n:
+            a = x + y
+            x = y
+            y = a
+            z = z+1
+        else:
+            return a
+        
        
 
 
